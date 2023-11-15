@@ -1,0 +1,68 @@
+html,body{
+    background-color: rgb(44, 87, 88);
+}
+#calculator {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#full_calc {
+    border: black solid;
+    background-color: rgb(58, 105, 58);
+}
+#display {
+    padding: 10px;
+    border: 3px solid #ccc;
+    width: 95%;
+    font-size: 30px;
+    white-space: pre-wrap;
+    overflow: auto;
+    text-align: right;
+    background-color: #f8f8f8;
+}
+button {
+    padding: 30px;
+    margin: 10px;
+    border: none black solid;
+}
+#display{
+    flex-direction: column;
+    display: flex;
+}
+#input{
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+}
+#output {
+    margin: 10px;
+    padding: 20px;
+    background-color: pink;
+}
+#row1,
+#row2,
+#row3,
+#row4 {
+    display: flex;
+    flex-direction: row;
+}
+#number {
+    background-color: black;
+    color: #d9d9d9;
+    font-size: xx-large;
+    font-weight: 700;
+}
+#appendOperator {
+    background-color: black;
+    color: greenyellow;
+    font-size: x-large;
+    font-weight: 700;
+}
+#number:active{
+    background-color: aqua;
+    color: black;
+}
+#appendOperator:active{
+    background-color: greenyellow;
+    color: black;
+}

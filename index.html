@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <h1 style="color: #d9d9d9;">Calculator</h1>
+        <br>
+        <div id="full_calc">
+            <div id="display">0</div>
+            <br>
+            <div id="body_calc">
+                <div id="row1">
+                    <button id="number" onclick="appendNumber('1')">1</button>
+                    <button id="number" onclick="appendNumber('2')">2</button>
+                    <button id="number" onclick="appendNumber('3')">3</button>
+                    <button id="appendOperator" onclick="appendOperator('+')">+</button>
+                </div>
+                <div id="row2">
+                    <button id="number" onclick="appendNumber('4')">4</button>
+                    <button id="number" onclick="appendNumber('5')">5</button>
+                    <button id="number" onclick="appendNumber('6')">6</button>
+                    <button id="appendOperator" onclick="appendOperator('-')">-</button>
+                </div>
+                <div id="row3">
+                    <button id="number" onclick="appendNumber('7')">7</button>
+                    <button id="number" onclick="appendNumber('8')">8</button>
+                    <button id="number" onclick="appendNumber('9')">9</button>
+                    <button id="appendOperator" onclick="appendOperator('*')">x</button>
+                    <button id="appendOperator" onclick="appendOperator('/')">:</button>
+
+                </div>
+                <div id="row4">
+                    <button id="number" onclick="appendNumber('0')">0</button>
+                    <button id="appendOperator" onclick="clearDisplay()">C</button>
+                    <button id="appendOperator" onclick="calculate()">=</button>
+                    <button id="appendOperator" onclick="clearone('DEL')">DEL</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
